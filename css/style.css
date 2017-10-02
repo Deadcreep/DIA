@@ -1,11 +1,37 @@
 .menu {
-  height: menu_height;
+  
   border-bottom-style: outset;
-  background-color: green;
+  background-color: gray;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
 }
+
 .menu__block {
-  font-size: menu_height-2;
-  float: left;
-  margin-left: 5vh;
+	height: 10vh;
+  font-size: calc(2vw + 2vh + 1vmin);
+  float: left;  
   vertical-align: middle;
+  margin-left: 5vw;
+  border-style: inherit;  
+  display: table-cell;  
+}
+
+
+.logo_img{
+	max-height: 100%
+	width: 10vw;
+	/*max-width: 100%;*/
+}
+
+.header_link{
+	text-decoration: none;
+	max-height: 100%
+}
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;	
 }
