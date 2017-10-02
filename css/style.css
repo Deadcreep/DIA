@@ -1,0 +1,11 @@
+.menu {
+  height: menu_height;
+  border-bottom-style: outset;
+  background-color: green;
+}
+.menu__block {
+  font-size: menu_height-2;
+  float: left;
+  margin-left: 5vh;
+  vertical-align: middle;
+}
