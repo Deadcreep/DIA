@@ -1,37 +1,130 @@
-.menu {
-  
+.menu {  
   border-bottom-style: outset;
   background-color: gray;
   display: table;
   width: 100%;
-  border-collapse: collapse;
 }
 
 .menu__block {
-	height: 10vh;
-  font-size: calc(2vw + 2vh + 1vmin);
-  float: left;  
-  vertical-align: middle;
-  margin-left: 5vw;
-  border-style: inherit;  
-  display: table-cell;  
+	height: 35px;	
+	width: auto;
+	min-width: 10%;
+	font-family: 'Brutal-Dude';
+	font-size: calc(22px + 0.5vmin);
+	text-shadow: red 0 0 10px;
+	float: left;  
+	vertical-align: middle;
+	margin-right: 3%;	 
+	display: table-cell;	
 }
 
-
-.logo_img{
-	max-height: 100%
-	width: 10vw;
-	/*max-width: 100%;*/
+.logo-img{
+	height: auto;
+	max-height: 100%;
+	min-height: 30px;
+	width: 100%;
+	max-width: 255px;
 }
 
-.header_link{
+.menu__link{
 	text-decoration: none;
-	max-height: 100%
+	max-height: 100%;
+
+}
+
+a.disabled {
+    pointer-events: none; 
+    cursor: default; 
+    color: white;
 }
 
 body {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 0px;	
+	margin-left: 0px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.game-body{
+	background-image: url(../img/game-background.jpg);	
+}
+
+.top-body{
+	background-image: url(../img/top-background.jpg);
+}
+
+.button{	
+	padding-top: 45vh;
+}
+
+.button__link{
+	background: grey;
+    border-radius: 40px;
+    box-shadow: 0 -3px 0 0 hsla(0, 0%, 0%, 0.2) inset;
+    color: #990000;
+    display: table;
+    font-family: 'Brutal-Tooth';
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 10px 25px;
+    margin:0 auto;
+    text-decoration: none;
+    transition: all 0.3s;
+    text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000;    
+}
+
+.link-button:hover{
+	background: red;
+    box-shadow: 0 3px 0 0 hsla(0, 0%, 0%, 0.2) inset;
+}
+
+.article{
+	padding-left: 20%;
+	padding-right: 20%;	
+}
+
+.article__image{
+	display: block;
+	margin: 0 auto;
+}
+
+
+.top-list{
+	padding-left: 42.5%;
+	padding-right: 42.5%;
+	width: 15%;	
+}
+
+.top-list__element{
+	font-size: 50px;
+	color: #DFB143;
+	font-style: italic;
+	text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+}
+
+
+@font-face {
+    font-family: 'Brutal-Tooth';
+    src:url('../fonts/Brutal-Tooth.ttf.woff') format('woff'),
+        url('../fonts/Brutal-Tooth.ttf.svg#Brutal-Tooth') format('svg'),
+        url('../fonts/Brutal-Tooth.ttf.eot'),
+        url('../fonts/Brutal-Tooth.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal-Dude';
+    src:url('../fonts/Brutal-Dude.ttf.woff') format('woff'),
+        url('../fonts/Brutal-Dude.ttf.svg#Brutal-Dude') format('svg'),
+        url('../fonts/Brutal-Dude.ttf.eot'),
+        url('../fonts/Brutal-Dude.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
 }
