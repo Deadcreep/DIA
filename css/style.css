@@ -1,20 +1,21 @@
-.menu {  
-  border-bottom-style: outset;
-  background-color: gray;
-  display: table;
-  width: 100%;
+ul.menu { 
+	margin-top: 0px; 
+	border-bottom-style: outset;
+	background-color: gray;
+	display: table;
+	width: 100%;
 }
 
-.menu__block {
-	height: 35px;	
+li.menu__item {
+	height: 40px;	
 	width: auto;
+	margin-top: 1vh;
 	min-width: 10%;
 	font-family: 'Brutal-Dude';
-	font-size: calc(22px + 0.5vmin);
+	font-size: calc(25px + 0.5vmin);
 	text-shadow: red 0 0 10px;
-	float: left;  
-	vertical-align: middle;
-	margin-right: 3%;	 
+	float: left;  	
+	margin-right: 3%; 
 	display: table-cell;	
 }
 
@@ -26,13 +27,13 @@
 	max-width: 255px;
 }
 
-.menu__link{
+a.menu__item-link{
 	text-decoration: none;
 	max-height: 100%;
 
 }
 
-a.disabled {
+a.menu__item-link_disabled {
     pointer-events: none; 
     cursor: default; 
     color: white;
