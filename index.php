@@ -18,8 +18,9 @@
 			}
 		else $page = 1;
 
-		echo Menu::CreateMenu($page);		
-		echo Content::GetPages($page-1);
+		//echo Menu::CreateMenu($page);		
+		//echo Content::GetPages($page-1);
+		echo Menu::CretePage($page);
 	?>
 </body>
 </html>

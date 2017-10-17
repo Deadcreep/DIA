@@ -46,6 +46,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-image: url(../img/top-background.jpg);
+
+	//width: 100%;
+	overflow-x: hidden !important;
 }
 
 
