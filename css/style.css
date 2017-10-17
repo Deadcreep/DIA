@@ -30,13 +30,12 @@ li.menu__item {
 a.menu__item-link{
 	text-decoration: none;
 	max-height: 100%;
-
 }
 
 a.menu__item-link_disabled {
-    pointer-events: none; 
+    pointer-events: none;
     cursor: default; 
-    color: white;
+    color: black;
 }
 
 body {
@@ -46,18 +45,12 @@ body {
 	margin-left: 0px;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-}
-
-.game-body{
-	background-image: url(../img/game-background.jpg);	
-}
-
-.top-body{
 	background-image: url(../img/top-background.jpg);
 }
 
+
 .button{	
-	padding-top: 45vh;
+	padding-top: 45vh;	
 }
 
 .button__link{
@@ -87,13 +80,13 @@ body {
 .article{
 	padding-left: 20%;
 	padding-right: 20%;	
+	color: #DFB143;
 }
 
 .article__image{
 	display: block;
 	margin: 0 auto;
 }
-
 
 .top-list{
 	padding-left: 42.5%;
