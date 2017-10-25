@@ -20,7 +20,7 @@
 
 		//echo Menu::CreateMenu($page);		
 		//echo Content::GetPages($page-1);
-		echo Menu::CretePage($page);
+		echo Menu::CreatePage($page);
 	?>
 </body>
 </html>
